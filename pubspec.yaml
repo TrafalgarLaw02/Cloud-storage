@@ -1,0 +1,74 @@
+name: personal_space
+description: Personal Space to store all your secret files
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+  # firebase dependencies
+  firebase: ^8.0.0
+  cloud_firestore: ^0.16.0
+  firebase_auth: ^0.20.0+1
+  firebase_storage: ^7.0.0
+
+  # state management
+  provider: ^4.3.3
+
+  # UI
+  pin_code_fields: ^6.1.0
+
+  # file opening utils
+  photo_view: ^0.10.3
+  video_player: ^1.0.1
+  universal_html: ^1.2.4
+  just_audio: ^0.6.13
+
+  # utils
+  file_picker: ^2.1.6
+  encrypt: ^4.1.0
+  intl: ^0.16.1
+
+  # database
+  hive: ^1.4.4+1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  build_runner: ^1.11.1
+  json_serializable: ^3.5.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/file_type_icons/
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
